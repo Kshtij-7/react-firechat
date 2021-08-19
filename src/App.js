@@ -10,12 +10,13 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyDsPZ6D0ztHxXAs46nFyf9i9WaMJ5Sfw6E",
+    authDomain: "dzchat-7.firebaseapp.com",
+    projectId: "dzchat-7",
+    storageBucket: "dzchat-7.appspot.com",
+    messagingSenderId: "112186676739",
+    appId: "1:112186676739:web:68ed555ff5c0666eb1e036",
+    measurementId: "G-LK5GV5NWT9"
 });
 
 const MoonIcon = props => (
